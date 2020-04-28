@@ -573,7 +573,7 @@ h1.logo a span, h1.footerLogo a span, .cta h2 a span {
 	width: 68px;
 }
 .headerBottom .searchOption .fa-input {
-	padding: 0;
+	padding: 6px;
 	font-size: 26px;
 	line-height: normal;
 	height: 41px;
@@ -621,6 +621,7 @@ h1.logo a span, h1.footerLogo a span, .cta h2 a span {
 	font-weight: normal;
 	padding: 3px 23px;
 	margin-bottom: 23px;
+	text-decoration: none;
 }
 .signUp {
 	background-color: #f1f2f2;
