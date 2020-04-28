@@ -2120,13 +2120,17 @@ a.cancel:hover {
 	box-shadow: 0px 6px 7px rgba(0,0,0,0.2);
 	border-bottom: 4px solid #1f4d83;
 }
-.choose_plan_Twocolumn .choose_plan .col-2 .plan-table td.last button {
+.choose_plan_Twocolumn .choose_plan .col-2 .plan-table td.last button,
+.choose_plan_Twocolumn .choose_plan .col-2 .plan-table td.last a.button,
+.choose_plan_Threecolumn .choose_plan .col-2 .plan-table td.last button,
+.choose_plan_Threecolumn .choose_plan .col-2 .plan-table td.last a.button {
 	background: #e5280f;
 	color: #fff;
 	border-radius: 4px;
 	border: none;
 	padding: 5px 20px;
 	font-size: 17px;
+	text-decoration: none;
 }
 .choose_plan_Twocolumn .choose_plan .col-2 .plan-table td.last button:hover {
 	background: #fd6820;
