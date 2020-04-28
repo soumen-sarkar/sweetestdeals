@@ -3796,6 +3796,9 @@ h1.footerLogo a:hover {
 	background-color: #e5280f;
 	color: #fff;
 }
+.orange.center-block {
+	display: table;
+}
 /* white */
 .white {
 	background-color: #ffffff;
