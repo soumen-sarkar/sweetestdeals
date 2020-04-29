@@ -24,37 +24,18 @@
         <div class="container headerTop">
             <div class="row">
             	<div class="col-sm-4">
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-9">
-                        	<ul class="signInJoin">
-                        <li class="dropdown">
-                        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Sign in</a>
-                        	<div style="padding: 15px;" class="dropdown-menu">
-                                <form>
-                                    <div class="form-group">
-                                        <label>Email address <em>*</em></label>
-                                        <input type="email" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Password <em>*</em></label>
-                                        <input type="password" class="form-control">
-                                    </div>
-                                    <div class="form-group">                                    
-                                    	<p><a href="#">Forgot your password?</a></p>
-                                    </div>                                    
-                                    <button type="submit" class="btn btn-block"><i class="fa fa-lock"></i> Sign in</button>
-                                </form>
-						</div>    
-                        </li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                        </div>
-                        <div class="col-xs-3 visible-xs">
-                        	<button type="button" data-target="#headerOption" data-toggle="collapse" class="btn btn-default pull-right">
-                            	<i class="fa fa-bars"></i>
-                            </button>
-                        </div>
-                    </div>                    
+                        <div class="row">
+                                <div class="col-sm-12 col-xs-9">
+                                    <ul class="signInJoin">
+                                        <li class="dropdown"><i class="fa fa-user"></i> My Account <a href="index.html" class="signOut">(Sign Out)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-3 visible-xs">
+                                    <button type="button" data-target="#headerOption" data-toggle="collapse" class="btn btn-default pull-right">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>                   
                 </div>
                 <div class="headerOption collapse" id="headerOption">
                     <div class="col-sm-8">
@@ -63,16 +44,16 @@
                                 <a href="#"><span><img src="img/moneybag.png" alt="share Icon" title="share icon"/></span>Share &amp; Earn</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="customerService"><i class="fa fa-comments"></i> Customer Service</a>
+                                <a href="contactus.html" class="customerService"><i class="fa fa-comments"></i> Customer Service</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu lastDropdown">
-                                    <li><a href="#">Help center</a></li>
-                                    <li><a href="#">Contact deals support</a></li>
+                                    <li><a href="contactus.html">Help center</a></li>
+                                    <li><a href="contactus.html">Contact deals support</a></li>
                                 </ul>    
                             </li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="aboutus.html">About us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -110,7 +91,9 @@
                                 </div>
                                 <input type="text" placeholder="Search...">
                                 <span class="input-group-btn">
-                                    <button type="submit" class="btn fa-input"><i class="fa fa-search"></i></button>
+                                        <a href="searchProduct.html" class="btn fa-input">
+                                                <i class="fa fa-search"></i>
+                                              </a>
                                 </span>
                             </div>                          
                         </form>
@@ -118,7 +101,7 @@
                     	</div>
                         <div class="col-lg-3 col-md-4 text-center">
                         	<p class="headerFavorites btocHeaderCart">
-                            	<a href="#"><i class="fa fa-heart"></i>Favorites</a>
+                            	<a href="b2c-consumer-account-favorites.html"><i class="fa fa-heart"></i>Favorites</a>
                             	<a href="#" class="cart"><i class="fa fa-shopping-cart"></i> Cart (<span>0</span>)</a>    
                             </p>
                         </div>
@@ -436,7 +419,7 @@
                                  </div>
                                  
                                 <div class="col-sm-6 col-sm-offset-6">
-                                    <button class="btn red" type="submit">Continue Checkout</button>
+                                    <a href="b2c-checkout-step3-paymentdelivery.html" class="btn red">Continue Checkout</a>
                                 </div>
                             </form>
                         </div>
@@ -456,64 +439,90 @@
 <!-- B2C Checkout page end -->
 
 <!-- Footer start -->
-    <div class="footerWide">
+<div class="footerWide">
         <div class="container footer">
-            <div class="row footerLinkWraper">        	
-                <div class="col-sm-2 equal clearfix">
-                    <h6><strong>Customer Services</strong></h6>
-                    <ul class="footerLink">
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Submit a Complaint</a></li>
-                        <li><a href="#">Policies & Rules</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 leftBorder equal clearfix">
-                    <h6><strong>About Us</strong></h6>
-                    <ul class="footerLink">
-                        <li><a href="#">TheSweetestDeal.com</a></li>
-                        <li><a href="#">Site Map</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 leftBorder equal clearfix">
-                    <h6><strong>Buy on TheSweetestDeals.com</strong></h6>
-                    <ul class="footerLink">
-                        <li><a href="#">Shop Product Categories</a></li>
-                        <li><a href="#">Shop By Suppliers</a></li>
-                        <li><a href="#">Close Out Products & Liquidations</a></li>
-                        <li><a href="#">Shop New Arrivals</a></li>
-                    </ul>
-                </div>                
-                <div class="col-sm-3 leftBorder equal clearfix">
-                    <h6><strong>Sell on TheSweetestDeals.com</strong></h6>
-                    <ul class="footerLink">
-                        <li><a href="#">Supplier Memberships</a></li>
-                        <li><a href="#">Learning Center</a></li>
-                        <li><a href="#">Training Center</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2 leftBorder equal clearfix">
-                    <h6><strong>Follow Us</strong></h6>
-                    <ul class="footerSocialMedia">
-                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                    </ul>
-                </div>
+          <div class="row footerLinkWraper">
+            <div class="col-sm-2 equal clearfix">
+              <h6><strong>Customer Services</strong></h6>
+              <ul class="footerLink">
+                <li><a href="contactus.html">Help Center</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="contactus.html">Submit a Complaint</a></li>
+                <li><a href="coming-soon.html">Policies & Rules</a></li>
+              </ul>
             </div>
-               
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1 class="footerLogo"><a href="index.html">The<span>Sweetest</span>Deal.com</a></h1>
-                </div>
-                <div class="col-sm-6">
-                    <p class="copyright">&copy;2015 TheSweetestDeal.com. All rights reserved.</p>
-                </div>
+            <div class="col-sm-2 leftBorder equal clearfix">
+              <h6><strong>About Us</strong></h6>
+              <ul class="footerLink">
+                <li><a href="aboutus.html">TheSweetestDeal.com</a></li>
+                <li><a href="coming-soon.html">Site Map</a></li>
+              </ul>
             </div>
+            <div class="col-sm-3 leftBorder equal clearfix">
+              <h6><strong>Buy on TheSweetestDeals.com</strong></h6>
+              <ul class="footerLink">
+                <li>
+                  <a href="searchProduct.html">Shop Product Categories</a>
+                </li>
+                <li><a href="b2b-supplier.html">Shop By Suppliers</a></li>
+                <li>
+                  <a href="marketingLanding.html"
+                    >Close Out Products & Liquidations</a
+                  >
+                </li>
+                <li><a href="b2b-marketplace.html">Shop New Arrivals</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3 leftBorder equal clearfix">
+              <h6><strong>Sell on TheSweetestDeals.com</strong></h6>
+              <ul class="footerLink">
+                <li>
+                  <a href="b2b-subscription-2cols.html">Supplier Memberships</a>
+                </li>
+                <li><a href="coming-soon.html">Learning Center</a></li>
+                <li><a href="coming-soon.html">Training Center</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2 leftBorder equal clearfix">
+              <h6><strong>Follow Us</strong></h6>
+              <ul class="footerSocialMedia">
+                <li>
+                  <a href="#"><i class="fa fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 class="footerLogo">
+                <a href="index.html">The<span>Sweetest</span>Deal.com</a>
+              </h1>
+            </div>
+            <div class="col-sm-6">
+              <p class="copyright">
+                &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                TheSweetestDeal.com. All rights reserved.
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 <!-- Footer end -->
 </div>
 <!-- Wrapper end -->

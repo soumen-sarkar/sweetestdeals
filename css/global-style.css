@@ -949,7 +949,7 @@ h1.logo a span, h1.footerLogo a span, .cta h2 a span {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	max-width: 100%;
-	z-index: 2;
+	z-index: 1;
 }
 .productRating .fa-star, .productRating .fa-star-half {
 	color: #ff9933;
@@ -1050,11 +1050,12 @@ h1.logo a span, h1.footerLogo a span, .cta h2 a span {
 	color: #fd6720;
 }
 .supplierInfoHolder {
-	bottom: 23px;
+	bottom: 0;
 	left: 0;
 	position: absolute;
 	text-align: center;
 	width: 100%;
+	height: 40%
 }
 .supplierInfoHolder p {
 	color: #fff;
@@ -2537,9 +2538,9 @@ a.cancel:hover {
 	margin-top: 43px;
 	margin-bottom: 23px;
 }
-.favoritesAddRemove a {
+/* .favoritesAddRemove a {
 	color: #9aa2a3;
-}
+} */
 .inboxFilterBar p {
 	line-height: 23px;
 }
